@@ -1,0 +1,153 @@
+.header{
+    font-family:Garamond,serif;
+}
+
+.info{
+    font-family: Georgia, serif;
+}
+
+.subhead{
+    font-family: Garamond,serif;
+
+}
+
+.weather:hover{
+    color:#8308ee;
+
+}
+
+body {
+    background-image: linear-gradient(to bottom, #E3DAC9, #5e81ff, #E3DAC9);
+  }
+  
+#site:hover{
+    color:#8308ee;
+}
+
+.business:hover{
+    color:#8308ee;
+}
+
+.story:hover{
+    color:#8308ee;
+}
+
+.json:hover{
+    color:#8308ee;
+}
+
+img{
+    width:100px;
+    height:100px;
+    border:5px double hwb(214 4% 14%);
+}
+
+img:hover{
+    transform: scale(1.1);
+}
+
+
+.header{
+    text-align:center;
+    padding-top:90px;
+    font-size: 40px;
+}
+
+.info{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+
+#site{
+    display:block;
+    text-align:center; 
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+dl dd{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.subhead{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 30px;
+}
+
+.weather{
+    display:block;
+    text-align:center; 
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.business{
+    display:block;
+    text-align:center; 
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.story{
+    display:block;
+    text-align:center; 
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.json{
+    display:block;
+    text-align:center; 
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+img{
+    display:inline block;
+    margin:10px;
+    text-align: center;
+}
+
+.image{
+    text-align: center;
+  }
+
+.image{
+    animation-name: slidein;
+    animation-duration: 2s;
+    animation-delay: 0.01s;
+}
+
+@keyframes slidein {
+    from {
+      transform: translateX(-100%);
+    }
+    
+  }
+
+.subhead{
+    animation: flashing 2.5s infinite;
+}
+
+@keyframes flashing{
+    0%{
+        color:#f0fd90;
+    }
+    25%{
+        color:transparent;
+    }
+    50%{
+        color:#f0fd90;
+    }
+    75%{
+        color:transparent;
+    }
+    100%{
+        color:#f0fd90;
+    }
+}
